@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26D26066D99972F6FC53E9FE /* Pods_SwiftyOBD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3657D8FA26BA750364C54B9D /* Pods_SwiftyOBD.framework */; };
+		2EE677FB1DC77FCE00858FB2 /* OBDAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EE677FA1DC77FCE00858FB2 /* OBDAPIManager.swift */; };
+		2EF208501DA64AA800231CC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF2084F1DA64AA800231CC9 /* AppDelegate.swift */; };
+		2EF208521DA64AA900231CC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF208511DA64AA900231CC9 /* ViewController.swift */; };
+		2EF208551DA64AA900231CC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF208531DA64AA900231CC9 /* Main.storyboard */; };
+		2EF208571DA64AA900231CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF208561DA64AA900231CC9 /* Assets.xcassets */; };
+		2EF2085A1DA64AA900231CC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EF208581DA64AA900231CC9 /* LaunchScreen.storyboard */; };
+		2EF208661DA64BCC00231CC9 /* OBDModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF208651DA64BCC00231CC9 /* OBDModels.swift */; };
+		2EF2086A1DA659B700231CC9 /* OBDParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF208671DA659B700231CC9 /* OBDParser.swift */; };
+		2EF2086B1DA659B700231CC9 /* OBDStreamManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF208681DA659B700231CC9 /* OBDStreamManager.swift */; };
+		2EF2086C1DA659B700231CC9 /* ELM327.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF208691DA659B700231CC9 /* ELM327.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		025D5BE51912DCACF630B2C0 /* Pods-SwiftyOBD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyOBD.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyOBD/Pods-SwiftyOBD.debug.xcconfig"; sourceTree = "<group>"; };
+		28EC9DF78B17E800B707A4EE /* Pods-SwiftyOBD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyOBD.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftyOBD/Pods-SwiftyOBD.release.xcconfig"; sourceTree = "<group>"; };
+		2EE677FA1DC77FCE00858FB2 /* OBDAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBDAPIManager.swift; sourceTree = "<group>"; };
+		2EF2084C1DA64AA800231CC9 /* SwiftyOBD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyOBD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF2084F1DA64AA800231CC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2EF208511DA64AA900231CC9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2EF208541DA64AA900231CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2EF208561DA64AA900231CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2EF208591DA64AA900231CC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2EF2085B1DA64AA900231CC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF208651DA64BCC00231CC9 /* OBDModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBDModels.swift; sourceTree = "<group>"; };
+		2EF208671DA659B700231CC9 /* OBDParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBDParser.swift; sourceTree = "<group>"; };
+		2EF208681DA659B700231CC9 /* OBDStreamManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OBDStreamManager.swift; sourceTree = "<group>"; };
+		2EF208691DA659B700231CC9 /* ELM327.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ELM327.swift; sourceTree = "<group>"; };
+		3657D8FA26BA750364C54B9D /* Pods_SwiftyOBD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyOBD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EF208491DA64AA800231CC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26D26066D99972F6FC53E9FE /* Pods_SwiftyOBD.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EF208431DA64AA800231CC9 = {
+			isa = PBXGroup;
+			children = (
+				2EF2084E1DA64AA800231CC9 /* SwiftyOBD */,
+				2EF2084D1DA64AA800231CC9 /* Products */,
+				354861B0715FAB037FB91CAF /* Pods */,
+				ED09566C036FCCD57A30246A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2EF2084D1DA64AA800231CC9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EF2084C1DA64AA800231CC9 /* SwiftyOBD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EF2084E1DA64AA800231CC9 /* SwiftyOBD */ = {
+			isa = PBXGroup;
+			children = (
+				2EF208641DA64BB700231CC9 /* SwiftyOBD */,
+				2EF2084F1DA64AA800231CC9 /* AppDelegate.swift */,
+				2EF208511DA64AA900231CC9 /* ViewController.swift */,
+				2EF208531DA64AA900231CC9 /* Main.storyboard */,
+				2EF208561DA64AA900231CC9 /* Assets.xcassets */,
+				2EF208581DA64AA900231CC9 /* LaunchScreen.storyboard */,
+				2EF2085B1DA64AA900231CC9 /* Info.plist */,
+			);
+			path = SwiftyOBD;
+			sourceTree = "<group>";
+		};
+		2EF208641DA64BB700231CC9 /* SwiftyOBD */ = {
+			isa = PBXGroup;
+			children = (
+				2EF208651DA64BCC00231CC9 /* OBDModels.swift */,
+				2EF208671DA659B700231CC9 /* OBDParser.swift */,
+				2EF208681DA659B700231CC9 /* OBDStreamManager.swift */,
+				2EF208691DA659B700231CC9 /* ELM327.swift */,
+				2EE677FA1DC77FCE00858FB2 /* OBDAPIManager.swift */,
+			);
+			name = SwiftyOBD;
+			sourceTree = "<group>";
+		};
+		354861B0715FAB037FB91CAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				025D5BE51912DCACF630B2C0 /* Pods-SwiftyOBD.debug.xcconfig */,
+				28EC9DF78B17E800B707A4EE /* Pods-SwiftyOBD.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED09566C036FCCD57A30246A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3657D8FA26BA750364C54B9D /* Pods_SwiftyOBD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EF2084B1DA64AA800231CC9 /* SwiftyOBD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EF2085E1DA64AA900231CC9 /* Build configuration list for PBXNativeTarget "SwiftyOBD" */;
+			buildPhases = (
+				9394810A2615ACF146624637 /* [CP] Check Pods Manifest.lock */,
+				2EF208481DA64AA800231CC9 /* Sources */,
+				2EF208491DA64AA800231CC9 /* Frameworks */,
+				2EF2084A1DA64AA800231CC9 /* Resources */,
+				718D93E1D527632A69F711A5 /* [CP] Embed Pods Frameworks */,
+				42FA21297F442F941E1AA00E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyOBD;
+			productName = SwiftyOBD;
+			productReference = 2EF2084C1DA64AA800231CC9 /* SwiftyOBD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EF208441DA64AA800231CC9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Hella Ventures Berlin";
+				TargetAttributes = {
+					2EF2084B1DA64AA800231CC9 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F2CU52ZLZK;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2EF208471DA64AA800231CC9 /* Build configuration list for PBXProject "SwiftyOBD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2EF208431DA64AA800231CC9;
+			productRefGroup = 2EF2084D1DA64AA800231CC9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EF2084B1DA64AA800231CC9 /* SwiftyOBD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EF2084A1DA64AA800231CC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF2085A1DA64AA900231CC9 /* LaunchScreen.storyboard in Resources */,
+				2EF208571DA64AA900231CC9 /* Assets.xcassets in Resources */,
+				2EF208551DA64AA900231CC9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42FA21297F442F941E1AA00E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyOBD/Pods-SwiftyOBD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		718D93E1D527632A69F711A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftyOBD/Pods-SwiftyOBD-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9394810A2615ACF146624637 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EF208481DA64AA800231CC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EF208521DA64AA900231CC9 /* ViewController.swift in Sources */,
+				2EF2086C1DA659B700231CC9 /* ELM327.swift in Sources */,
+				2EF208501DA64AA800231CC9 /* AppDelegate.swift in Sources */,
+				2EF2086B1DA659B700231CC9 /* OBDStreamManager.swift in Sources */,
+				2EF2086A1DA659B700231CC9 /* OBDParser.swift in Sources */,
+				2EF208661DA64BCC00231CC9 /* OBDModels.swift in Sources */,
+				2EE677FB1DC77FCE00858FB2 /* OBDAPIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EF208531DA64AA900231CC9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF208541DA64AA900231CC9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2EF208581DA64AA900231CC9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EF208591DA64AA900231CC9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EF2085C1DA64AA900231CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2EF2085D1DA64AA900231CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EF2085F1DA64AA900231CC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 025D5BE51912DCACF630B2C0 /* Pods-SwiftyOBD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2CU52ZLZK;
+				INFOPLIST_FILE = SwiftyOBD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellaventures.SwiftyOBD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2EF208601DA64AA900231CC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28EC9DF78B17E800B707A4EE /* Pods-SwiftyOBD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F2CU52ZLZK;
+				INFOPLIST_FILE = SwiftyOBD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hellaventures.SwiftyOBD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EF208471DA64AA800231CC9 /* Build configuration list for PBXProject "SwiftyOBD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF2085C1DA64AA900231CC9 /* Debug */,
+				2EF2085D1DA64AA900231CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EF2085E1DA64AA900231CC9 /* Build configuration list for PBXNativeTarget "SwiftyOBD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EF2085F1DA64AA900231CC9 /* Debug */,
+				2EF208601DA64AA900231CC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EF208441DA64AA800231CC9 /* Project object */;
+}

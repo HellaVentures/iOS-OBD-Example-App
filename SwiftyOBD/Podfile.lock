@@ -1,0 +1,49 @@
+PODS:
+  - Alamofire (4.0.0)
+  - CircleProgressView (1.0.13)
+  - DZNEmptyDataSet (1.8.1)
+  - Eureka (2.0.0-beta.1)
+  - SwiftyJSON (3.1.1)
+  - XCGLogger (4.0.0):
+    - XCGLogger/Core (= 4.0.0)
+  - XCGLogger/Core (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (from `https://github.com/Alamofire/Alamofire.git`, tag `4.0.0`)
+  - CircleProgressView (from `https://github.com/CardinalNow/iOS-CircleProgressView.git`)
+  - DZNEmptyDataSet
+  - Eureka (from `https://github.com/xmartlabs/Eureka.git`)
+  - SwiftyJSON
+  - XCGLogger (~> 4.0.0)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.0.0
+  CircleProgressView:
+    :git: https://github.com/CardinalNow/iOS-CircleProgressView.git
+  Eureka:
+    :git: https://github.com/xmartlabs/Eureka.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :git: https://github.com/Alamofire/Alamofire.git
+    :tag: 4.0.0
+  CircleProgressView:
+    :commit: a079117d1226570b62d53e8a444f94e3ed786d36
+    :git: https://github.com/CardinalNow/iOS-CircleProgressView.git
+  Eureka:
+    :commit: 75831c6efbb03ad31ffbe8fe3a1bd5db8ebf357b
+    :git: https://github.com/xmartlabs/Eureka.git
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  CircleProgressView: 65283c9f23483889421c6e3c89f5e1a9b0e0ff19
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Eureka: d014adf16406745e1a78d5790ea37ed130a0a8e5
+  SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
+  XCGLogger: 38063ea89b4c8b23232d18efd2e12eb0005f3ea4
+
+PODFILE CHECKSUM: 78505e7ab9852c741d2aed8360734b40dbc6e37a
+
+COCOAPODS: 1.1.0.rc.3

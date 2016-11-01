@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+use_frameworks!
+
+target 'SwiftyOBD' do
+    pod 'Eureka', :git => 'https://github.com/xmartlabs/Eureka.git'
+    pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :tag => '4.0.0'
+    pod 'CircleProgressView', :git => 'https://github.com/CardinalNow/iOS-CircleProgressView.git'
+    pod 'DZNEmptyDataSet'
+    pod 'XCGLogger', '~> 4.0.0'
+    pod 'SwiftyJSON'
+end
