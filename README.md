@@ -227,3 +227,5 @@ This example App uses dependencies based on the work of the following GitHub con
 * **[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)**: The better were to deal with JSON data in Swift.
 * **[Eureka](https://github.com/xmartlabs/Eureka)**: Elegant iOS form builder in Swift 3.
 * **[XCGLogger](https://github.com/DaveWoodCom/XCGLogger)**: A debug log framework for use in Swift projects.
+* **[DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)**: A drop-in UITableView/UICollectionView superclass category for showing empty datasets whenever the view has no content to display.
+* **[iOS CircleProgressView](https://github.com/CardinalNow/iOS-CircleProgressView)**: This control will allow a user to use code instantiated or interface builder to create and render a circle progress view. 
