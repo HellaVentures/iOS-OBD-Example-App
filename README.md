@@ -35,7 +35,7 @@ In order to run the example project, you will need to install the Cocoapods depe
 
 #### b) Devices and setup used in this project <a name="devicesAndSetup"/>
 
-We used the [Diamex OBD2 Profi Simulator](http://www.diamex.de/dxshop/Diamex-OBD2-Profi-Simulator-alle-Protokolle) and the [Veepeak WiFi OBD2 Scanner for iPhone](http://veepeak.net/index.php?route=product/product&product_id=50) for the test and development of this example project.
+We used the [Diamex OBD2 Profi Simulator](http://www.diamex.de/dxshop/Diamex-OBD2-Profi-Simulator-alle-Protokolle) and the [Veepeak WiFi OBD2 Scanner for iPhone](https://www.amazon.de/Garantie-veepeak-OBD2-OBD-Auto-Diagnose-motorkontrollleuchte/dp/B00WPW6BAE) for the test and development of this example project.
 
 We also selected the protocol ***7: ISO 15765-4 CAN (29 bit ID,500 Kbaud)*** on
 the Diamex Simulator for this simple example (just in cased we missed
